@@ -9,5 +9,3 @@ RUN wget https://github.com/SagerNet/sing-box/releases/download/v1.10.1/sing-box
 COPY config.json .
 EXPOSE 8080
 CMD ["./sing-box", "run", "-c", "config.json"]
-
-Ctrl + `
